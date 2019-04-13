@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <title>GCPick</title>
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/8.0.0/sanitize.min.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400'>
+    <link rel='stylesheet' href='index.css'>
+  </head>
+  <body>
+    <div id='projects'>
+      <h1>GCPick</h1>
+      <div class='input'>
+        <input type='text' class='search' placeholder='Search project'>
+      </div>
+      <div class='list'></div>
+      <div class='links'>
+        <a data-href='https://console.cloud.google.com/home/dashboard?project='>
+          <img src='images/cloud-console.svg'>
+          Cloud Console
+        </a>
+        <a data-href='https://console.cloud.google.com/iam-admin?project='>
+          <img src='images/cloud-iam.svg'>
+          Cloud IAM
+        </a>
+        <a data-href='https://console.cloud.google.com/bigquery?project='>
+          <img src='images/bigquery.svg'>
+          BigQuery
+        </a>
+        <a data-href='https://console.cloud.google.com/compute?project='>
+          <img src='images/compute-engine.svg'>
+          Compute Engine
+        </a>
+        <a data-href='https://console.cloud.google.com/storage?project='>
+          <img src='images/cloud-storage.svg'>
+          Cloud Storage
+        </a>
+      </div>
+    </div>
+    <div class='templates'>
+      <div id='project' class='project'>
+        <h2 class='name'></h2>
+        <div class='projectId'></div>
+      </div>
+    </div>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js'></script>
+    <script src='index.js'></script>
+  </body>
+</html>
